@@ -24,6 +24,7 @@ function Head(editor) {
             { $elem: $('<h3>H3</h3>'), value: '<h3>' },
             { $elem: $('<h4>H4</h4>'), value: '<h4>' },
             { $elem: $('<h5>H5</h5>'), value: '<h5>' },
+            { $elem: $('<h6>H6</h6>'), value: '<h6>' },
             { $elem: $('<p>正文</p>'), value: '<p>' }
         ],
         onClick: (value) => {
